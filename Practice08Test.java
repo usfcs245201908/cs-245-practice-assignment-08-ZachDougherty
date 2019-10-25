@@ -142,8 +142,8 @@ public class Practice08Test {
 		if (constructorTest() &&
 				insertOneTest() &&
 				insertTwoTest() &&
-				deleteTest() &&
-				orderTest()) {
+				orderTest() &&
+				deleteTest()) {
 			// Not adding up the total since the orderTest does not *really* "test" exactly....
 			System.out.println("Well done!");
 		}
